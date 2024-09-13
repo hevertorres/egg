@@ -1,0 +1,279 @@
+/* agregar fuente Personalizada */
+@font-face {
+  font-family: DtecnoParrafo1;
+  src: url("/PWDC/mi_primera_pagina/fonts/parrafos/AeronomicSans-Regular.ttf");
+}
+@font-face {
+  font-family: DtecnoParrafo2;
+  src: url("/PWDC/mi_primera_pagina/fonts/parrafos/Begita.ttf");
+}
+@font-face {
+  font-family: DtecnoParrafo3;
+  src: url("/PWDC/mi_primera_pagina/fonts/parrafos/ThistailsSans_Demo-Regular.otf");
+}
+@font-face {
+  font-family: DtecnoEncabezado1;
+  src: url("/PWDC/mi_primera_pagina/fonts/Blank\ Place.otf");
+}
+@font-face {
+  font-family: DtecnoEncabezado2;
+  src: url("/PWDC/mi_primera_pagina/fonts/encabezado/Black\ Retro.otf");
+}
+@font-face {
+  font-family: DtecnoEncabezado3;
+  src: url("/PWDC/mi_primera_pagina/fonts/encabezado/Super\ Chips.ttf");
+}
+@font-face {
+  font-family: especial1;
+  src: url("/PWDC/mi_primera_pagina/fonts/encabezado/Fun\ Palace\ PERSONAL\ USE\ ONLY!.ttf");
+}
+/* configurar fuentes personalizadas --------------------------*/
+
+.parrafo1 {
+  font-family: DtecnoParrafo1, DtecnoParrafo2;
+}
+.parrafo2 {
+  font-family: DtecnoParrafo2;
+}
+.parrafo3 {
+  font-family: DtecnoParrafo3;
+}
+.titulo1 {
+  font-family: DtecnoEncabezado1;
+}
+.titulo2 {
+  font-family: DtecnoEncabezado2;
+}
+.titulo3 {
+  font-family: DtecnoEncabezado3;
+}
+.especial1 {
+  font-family: especial1;
+}
+/* Etiquetas principales ----------------------*/
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  width: 800;
+  height: 200px;
+
+  padding: 2px;
+  border-radius: 30px;
+}
+/* ------------------------------------------------------------------------------- */
+.card {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  width: 90vw;
+  height: auto;
+  background-color: white;
+  /* border: 2px solid rgb(120, 120, 123); */
+
+  text-align: center;
+}
+.card h1 {
+  text-transform: uppercase;
+  color: rgb(0, 74, 173);
+}
+.card p {
+  color: black;
+  font-size: 25px;
+}
+
+.card1 {
+  color: rgb(0, 74, 173);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  padding: 5px;
+  margin: 1px;
+  border-radius: 25px;
+}
+
+.card1 ul li {
+  font-family: especial1;
+  font-size: 1.5em;
+}
+.card1 p {
+  color: black;
+  font-size: 25px;
+  width: 100vw;
+
+  align-content: flex-start;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+}
+.card2 p {
+  width: 50vw;
+}
+
+.espacio {
+  background-color: rgb(255, 255, 255);
+}
+
+/* contenedor de imagenes */
+/* 
+
+*/
+
+.link {
+  /* configuracion menu vertical */
+  background-color: rgb(214, 19, 19);
+  display: flex;
+  align-items: center;
+}
+/* #fijar{
+position: fixed;
+} */
+.menu {
+  width: 80vw;
+  position:fixed ;
+  color: #dd0808;
+  background-color: #03A9F5;
+  font-family: DtecnoEncabezado;
+  font-size: 20px;
+  padding: 2px;
+  margin: 20px;
+  border: 3px;
+  border-radius: 10px;
+  /* ____________________________________________________________ */
+  list-style-type: none;
+  /* ____________________________________________________________ */
+  display: flex;
+  justify-content: space-between;
+  /* ___________________________________________________________  */
+ 
+}
+.menu li:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(249, 6, 6);
+  border-radius: 5px;
+  padding: 5px;
+}
+.menu li a {
+  text-decoration: none;
+}
+
+#soporte {
+  width: 80vw;
+  height: 250px;
+  padding: 10px;
+  background-image: url("./imagenes/detecnologias.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: initial;
+ background-size: contain;   /* la imagen de fondo se adapta al tamañpo del contenedor */
+}
+#soporte2 {
+  border: 0;
+  margin: 0;
+  padding: 15px;
+  height: 10vh;
+  border-radius: 30px;
+
+  /* background-image: url("./imagenes/fondo-azul-rayas-1.png"); */
+
+  background: rgb(249, 249, 249);
+  background: linear-gradient( 207deg,  rgba(249, 249, 249, 1) 0%,
+    rgba(135, 133, 237, 0.4234068627450981) 19%, rgba(135, 133, 237, 1) 23%,
+    rgba(9, 9, 121, 1) 45%,  rgba(15, 43, 199, 1) 67%,
+    rgba(201, 209, 214, 1) 88%,  rgba(240, 240, 240, 0.7203256302521008) 100% );
+
+  background-position: center;
+  background-size: cover;
+}
+
+.parrafo1 {
+  /* background-color: darkgoldenrod; */
+
+  margin: 4%;
+  padding: 20px;
+  border: 1px solid blue;
+  text-align: justify;
+}
+
+.navegacion {
+  background-color: blueviolet;
+
+  border: 3px solid #ffffff;
+  margin: 2%;
+  padding: 4%;
+
+  display: flexbox;
+  justify-content: center;
+}
+.imagenes {
+  padding: 3%;
+  border: 5%;
+  margin: 5%;
+
+  display: flex;
+  justify-content: right;
+  width: 15%;
+  height: 15%;
+
+  /* Activando flexbox */
+  display: flex;
+  justify-content: center; /*-Alimear ELEMENTOS: justificando Y ALINEANDO CONTENIDO contenido */
+}
+
+/* ---------------------MAIN------------------------------------ */
+main {
+  border: 2px solid rgb(0, 17, 255);
+  margin: 2px;
+  border-radius: 55px;
+}
+main div p {
+  font-family: DtecnoParrafo1;
+  /* background-color: aqua; */
+  font-size: 5vh;
+  text-align: justify;
+}
+
+main div h1 {
+  font-family: DtecnoEncabezado3;
+  text-align: center;
+}
+
+/* ---------------------FOOTER------------------------------------ */
+
+footer {
+  border: 10px;
+  margin: 15%;
+  height: 80px;
+  width: 95vw;
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+}
+
+footer div ul {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-end;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+footer div ul li {
+  color: black;
+  padding: 3em;
+  list-style-type: none;
+}
+footer div ul li :hover {
+  padding: 3em;
+  background-color: rgb(0, 255, 187);
+  color: rgb(244, 9, 9);
+}

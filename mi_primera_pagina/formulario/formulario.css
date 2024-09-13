@@ -1,0 +1,37 @@
+ @font-face{
+    font-family: DtecnoParrafo1;
+    src: url("/PWDC/mi_primera_pagina/fonts/parrafos/AeronomicSans-Regular.ttf");
+ }
+ @font-face{
+    font-family: DtecnoParrafo2;
+    src: url("/PWDC/mi_primera_pagina/fonts/parrafos/Begita.ttf");
+ }
+ @font-face{
+    font-family: DtecnoEncabezado1;
+    src: url("/PWDC/mi_primera_pagina/fonts/encabezado/Black\ Retro.otf");
+ }
+ @font-face{
+    font-family: especial1;
+    src: url("/PWDC/mi_primera_pagina/fonts/encabezado/Fun\ Palace\ PERSONAL\ USE\ ONLY!.ttf");
+ }
+ @font-face{
+    font-family: DtecnoEncabezado3;
+    src: url("/PWDC/mi_primera_pagina/fonts/encabezado/Super\ Chips.ttf");
+ }
+ 
+ 
+ .parrafo1{
+    font-family: DtecnoParrafo1,DtecnoParrafo2;
+ }
+ .parrafo2{
+    font-family: DtecnoParrafo2;
+ }
+ h1{
+    font-family: DtecnoEncabezado1;
+ }
+ h2{
+    font-family: DtecnoEncabezado2;
+ }
+ h3{
+    font-family: DtecnoEncabezado3;
+ }
